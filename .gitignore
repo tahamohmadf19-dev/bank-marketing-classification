@@ -1,0 +1,45 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Dataset files
+*.csv
+*.dat
+*.txt
+*.json
+*.parquet
+
+# Spark
+metastore_db/
+spark-warehouse/
+derby.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Model artifacts
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# Logs
+*.log
