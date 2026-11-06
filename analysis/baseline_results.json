@@ -1,0 +1,40 @@
+{
+  "rows": 45211,
+  "positive_rate": 0.117,
+  "split": "80/20 stratified, seed 42 (differs from the notebook's 60/20/20 randomSplit)",
+  "always_no": {
+    "accuracy": 0.883,
+    "roc_auc": 0.5,
+    "pr_auc": 0.117,
+    "yes_recall": 0.0,
+    "yes_f1": 0.0
+  },
+  "logistic_regression_with_duration": {
+    "accuracy": 0.9012,
+    "roc_auc": 0.9056,
+    "pr_auc": 0.5451,
+    "yes_recall": 0.3478,
+    "yes_f1": 0.4518
+  },
+  "random_forest_with_duration": {
+    "accuracy": 0.9047,
+    "roc_auc": 0.9288,
+    "pr_auc": 0.6201,
+    "yes_recall": 0.3214,
+    "yes_f1": 0.441
+  },
+  "logistic_regression_without_duration": {
+    "accuracy": 0.8933,
+    "roc_auc": 0.7717,
+    "pr_auc": 0.4111,
+    "yes_recall": 0.1786,
+    "yes_f1": 0.2815
+  },
+  "random_forest_without_duration": {
+    "accuracy": 0.8953,
+    "roc_auc": 0.8029,
+    "pr_auc": 0.4528,
+    "yes_recall": 0.1994,
+    "yes_f1": 0.3083
+  }
+}

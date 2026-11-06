@@ -43,3 +43,6 @@ ENV/
 
 # Logs
 *.log
+data/
+__pycache__/
+.ipynb_checkpoints/
