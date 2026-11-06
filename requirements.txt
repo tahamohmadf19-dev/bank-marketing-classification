@@ -1,0 +1,7 @@
+pyspark==3.5.3
+numpy>=1.26,<2.3
+pandas>=2.0
+matplotlib>=3.8
+scikit-learn>=1.4
+jupyter>=1.0
+pytest>=8.0
