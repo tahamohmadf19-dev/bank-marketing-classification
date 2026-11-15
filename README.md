@@ -14,6 +14,8 @@ known after the call ends. A model meant to decide whom to call cannot use it. B
 ### Spark notebook
 
 Rerun from a clean environment with PySpark 3.5.3 and Java 17. Outputs are saved in the notebook. The split is
+
+`requirements.txt` now pins PySpark 3.5.8, the patch release in the same 3.5 line that fixes PYSEC-2026-3966. The saved results above are from the 3.5.3 run and were not re-run on 3.5.8.
 a random 60/20/20 from `randomSplit` (not stratified). F1 here is `MulticlassClassificationEvaluator`'s
 **weighted F1**, which is dominated by the majority class. All models include `duration`.
 
